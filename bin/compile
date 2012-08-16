@@ -12,8 +12,8 @@ mktmpdir() {
 }
 
 # config
-MONO_VERSION="2.10.8"
-S3_BUCKET="bh-buildpack-mono"
+MONO_VERSION="2.10.9"
+S3_BUCKET="heroku-buildpack-mono-boo"
 
 # parse and derive params
 BUILD_DIR=$1
